@@ -39,7 +39,7 @@
 }
 header.site-header {
     width: 100%;
-    background: url(./images/topwhite_.jpg) center top repeat-x;;
+    background: url(./images/Brushstrokes_topimage_tan.jpg) center top repeat-x;;
     position: relative;
     height: 260px;
 }
@@ -92,8 +92,8 @@ header.site-header {
     padding: 24px 42px 24px 0;
 }
 .left-nav ul li.menu-item-has-children:before {
-    font-family: 'FontAwesome';
-    content: "\f107";
+   
+    /* content: "\f107"; */
     color: #dcbab1;
     position: absolute;
     right: 22px;
@@ -119,8 +119,8 @@ header.site-header {
     padding: 24px 0 24px 42px;
 }
 .right-nav ul li.menu-item-has-children:before {
-    font-family: 'FontAwesome';
-    content: "\f107";
+    
+    
     color: #dcbab1;
     position: absolute;
     left: 22px;
@@ -422,6 +422,113 @@ ul.tests li .name {
 }
 
 /* Team page */
+ul.team1 {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+ul.team1 {
+    padding: 0;
+    margin: 7%;
+    list-style: none;
+}
+ul.team1 li.member1 {
+    width: 100%;
+    
+}
+ .left1 {
+    width: 253px;
+    float: left ;
+    margin-bottom: -10%;
+}
+ul.team1 li.member1  .thumb {
+    background: url(../img/team-thumb.png) center no-repeat;
+    width: 253px;
+    height: 241px;
+    padding: 10px;
+    margin-bottom: 25%;
+    margin-left: 40%;
+}
+.team-meta1{
+    margin-left: 0%;
+}
+ul.team1 li.member1  .team-meta1 {
+    background: #f6ebe5;
+    padding: 25px;
+    
+}
+ul.team1 li.member1   h3 {
+    margin-top: 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 14px;
+    letter-spacing: 0.2em;
+    margin-bottom: 17px;
+}
+ul.team1 li.member1 .left1  .subtitle {
+    text-align: justify;
+    color: #a7a9ab;
+    font-size: 14px;
+    line-height: 1.71;
+    width: 100%;
+    display: block;
+}
+ul.team1 li.member1 .left1  hr.div {
+    background: #a7a9ab;
+    width: 46px;
+
+}
+ul.team1 li.member1 .left1  ul.info {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: justify;
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+ul.team1 li.member1 .right1 {
+    width: 658px;
+    font-size: 20px;
+    line-height: 1.6;
+    float: left;
+    margin-left: 16%;
+    margin-top: 5%;
+    text-align: justify;
+
+}
+@media only screen and (min-width : 375px) and (max-width : 767px) {
+
+    ul.team1 li.member1 .left1 .thumb {
+        width: 100%;
+        height: auto;
+        margin-left: 14%;
+        border: 1px solid #bbbdc0;
+    }
+    ul.team1 li.member1 .left1 .thumb img {
+        width: 100%;
+        height: auto;
+        align-content: center;
+    }
+    .team1 .himage {
+        width: 100%;
+        margin-left: 0;
+        align-content: center;
+
+    }
+    ul.team1 li.member1 .right1 {
+        width: 100%;
+        margin-left: 2%;
+        text-align: center;
+    }
+    .team-meta1 {
+        margin-left: 24%;
+        margin-bottom: 10%;
+    }
+}
+
+
 ul.team {
     padding: 0;
     margin: 0;

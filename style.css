@@ -890,3 +890,20 @@ ul.team li.member .left .thumb {
 ul.team li.member .left .thumb:hover .himage {
 	opacity: 1;
 }
+
+ul.team1 li.member1 .left1 .thumb {
+	position: relative;
+}
+.team1 .himage {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 10px;
+	width: 253px;
+    	height: 241px;
+	z-index: 5;
+	opacity: 0;
+}
+ul.team1 li.member1 .left1 .thumb:hover .himage {
+	opacity: 1;
+}
